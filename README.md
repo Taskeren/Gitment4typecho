@@ -3,7 +3,7 @@
 ## 使用方法
 1. 从 [Release](https://github.com/nitu2003/Gitment4typecho/release/latest) 中下载本项目  
 2. 上传至 `/usr/plugin/`中  
-3. 根据 [帮助文档](https://github.com/nitu2003/Gitment4typecho/wiki/HELP!) 创建Github OAuth Application  
+3. 根据 [帮助文档](https://github.com/nitu2003/Gitment4typecho/wiki/Gitment4typecho-%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3) 创建Github OAuth Application  
 4. 在控制台启用和设置本插件  
 5. 享受和 Star 本项目  
 
