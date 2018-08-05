@@ -83,7 +83,7 @@ class Gitment4typecho_Plugin implements Typecho_Plugin_Interface
         } else {
             echo "gitment.render('comments')";
         }
-        echo "</script>"; 
+        echo "</script>";
     }
 }
 ?>
