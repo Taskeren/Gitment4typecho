@@ -77,7 +77,7 @@ class Gitment4typecho_Plugin implements Typecho_Plugin_Interface
             echo "<script>$('#comments').html('')</script>\n";
         }
         echo "<script>";
-        echo "var gitment = new Gitment({" . "id: location.href," . "owner: '" . $owner . "'," . "repo: '" . $repo . "'," . "oauth: {" . "client_id: '" . $client_id . "'," . "client_secret: '" . $client_secret . "'," . "},});\n";
+        echo "var gitment = new Gitment({" . "id: 'location.href'," . "owner: '" . $owner . "'," . "repo: '" . $repo . "'," . "oauth: {" . "client_id: '" . $client_id . "'," . "client_secret: '" . $client_secret . "'," . "},});\n";
         if (isset($comment_element2) && $comment_element2 != "") {
             echo "gitment.render('" . $comment_element . "')";
         } else {
